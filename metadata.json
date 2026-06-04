@@ -1,0 +1,6 @@
+{
+  "name": "Subliime by Gerlyn",
+  "description": "A high-end fashion boutique featuring an interactive catalog and integrated payment gateway.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
