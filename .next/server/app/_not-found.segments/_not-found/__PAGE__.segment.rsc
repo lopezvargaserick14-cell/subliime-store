@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/2js11g7g7_c7c.js","/_next/static/chunks/426-6vi642dn4.js","/_next/static/chunks/1f9r7gdxil3_a.js","/_next/static/chunks/14mrh2-p_w84d.js"],""]
+3:I[97367,["/_next/static/chunks/2js11g7g7_c7c.js","/_next/static/chunks/426-6vi642dn4.js","/_next/static/chunks/1f9r7gdxil3_a.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen flex flex-col items-center justify-center text-center px-6","children":[["$","p",null,{"className":"font-serif italic text-charcoal/30 text-6xl mb-6","children":"404"}],["$","h1",null,{"className":"font-serif text-3xl mb-4","children":"Página no encontrada"}],["$","p",null,{"className":"text-charcoal/60 mb-8","children":"La página que buscas no existe o fue movida."}],["$","$L2",null,{"href":"/","className":"uppercase tracking-widest text-sm border-b border-charcoal pb-1 hover:text-charcoal/60 transition-colors","children":"Volver al inicio"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Kmixvxbmd_XZqk9saVt2E"}
+5:null

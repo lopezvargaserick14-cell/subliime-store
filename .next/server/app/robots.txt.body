@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /checkout
+
+Sitemap: https://www.subliime.co/sitemap.xml
