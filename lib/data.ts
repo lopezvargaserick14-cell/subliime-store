@@ -15,6 +15,17 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'vestido-bordado',
+    name: 'Vestido Bordado Encanto Artesanal',
+    category: 'Vestidos',
+    price: 320000,
+    description: 'Elegante vestido de algodón con detalles bordados a mano. Una pieza única, elaborada y personalizada a tu medida que resalta por su belleza y comodidad.',
+    details: ['100% Algodón', 'Bordado artesanal', 'Diseño personalizado', 'Disponible en todas las tallas'],
+    images: [
+      '/images/vestido_bordado.jpeg'
+    ]
+  },
+  {
     id: 'chaqueta-jean',
     name: 'Chaqueta Jean Larga Esencia Libre',
     category: 'Ropa',
@@ -24,6 +35,15 @@ export const products: Product[] = [
     images: [
       '/images/chaqueta_jean_larga.jpeg'
     ]
+  },
+  {
+    id: 'blusa-amanecer-radiante',
+    name: 'Blusa Amanecer Radiante',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Una vibrante blusa fucsia que captura la magia de la naturaleza en su máximo esplendor. Pintada meticulosamente a mano, presenta un delicado colibrí en pleno vuelo que se acerca a una flor lila. Esta prenda elegante es el reflejo de la libertad y el color.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves1.jpeg', '/images/ves1.1.jpeg']
   },
   {
     id: 'blusa-amarilla',
@@ -37,15 +57,13 @@ export const products: Product[] = [
     ]
   },
   {
-    id: 'vestido-bordado',
-    name: 'Vestido Bordado Encanto Artesanal',
-    category: 'Vestidos',
-    price: 320000,
-    description: 'Elegante vestido de algodón con detalles bordados a mano. Una pieza única, elaborada y personalizada a tu medida que resalta por su belleza y comodidad.',
-    details: ['100% Algodón', 'Bordado artesanal', 'Diseño personalizado', 'Disponible en todas las tallas'],
-    images: [
-      '/images/vestido_bordado.jpeg'
-    ]
+    id: 'blusa-latido-bohemio',
+    name: 'Blusa Latido Bohemio',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Celebra la pasión y el romance con esta pieza de diseño exclusivo. Su lienzo blanco cobra vida con un vibrante corazón pintado a mano, la cálida palabra "Amore" y elegantes trazos botánicos en tonos verdes y cobrizos. Arte puro que irradia pura alegría y sofisticación.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves2.jpeg', '/images/ves2.2.jpeg']
   },
   {
     id: 'algodon-pintado',
@@ -60,6 +78,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-susurro-viento',
+    name: 'Blusa Susurro de Viento',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Elegancia pura en una camisa clásica que se transforma en poesía visual. Tres majestuosas mariposas en tonos púrpuras y rosados descienden en perfecta armonía, acompañadas de sutiles arabescos dorados que flotan como un susurro pintado a mano.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves3.jpeg', '/images/ves3.1.jpeg']
+  },
+  {
     id: 'conjunto-armonia',
     name: 'Conjunto Armonía Textil',
     category: 'Ropa',
@@ -70,6 +97,15 @@ export const products: Product[] = [
       '/images/conjunto_pantalon_blusa_1.jpeg',
       '/images/conjunto_pantalon_blusa_2.jpeg'
     ]
+  },
+  {
+    id: 'blusa-misterio-esmeralda',
+    name: 'Blusa Misterio Esmeralda',
+    category: 'Ropa',
+    price: 280000,
+    description: 'El enigma del fondo oscuro se ilumina con la majestuosidad de sublimes plumas de pavo real pintadas a mano en tonos dorados y esmeralda. Una obra de arte sumamente cautivadora y elegante, diseñada para almas enigmáticas que buscan deslumbrar.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves4.jpeg', '/images/ves4.1.jpeg']
   },
   {
     id: 'conjunto-algodon',
@@ -84,6 +120,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-dulce-primavera',
+    name: 'Blusa Dulce Primavera',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Una delicada camisa que evoca la serenidad de una tarde fresca. Adornada con hermosas margaritas púrpuras pintadas a mano y el encantador detalle de una abejita en vuelo. Su diseño minimalista y romántico inspira tranquilidad y belleza sutil.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves5.jpeg', '/images/ves5.1.jpeg']
+  },
+  {
     id: 'pantalon-versatil',
     name: 'Pantalón Versátil Dril/Chambray',
     category: 'Ropa',
@@ -95,6 +140,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-oasis-zafiro',
+    name: 'Blusa Oasis Zafiro (Manga Corta)',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Fresca, vibrante y llena de luz. Esta prenda en tonos azul profundo es el escenario donde danzan un trío de mariposas multicolores pintadas a mano, con destellos dorados que evocan un oasis de arte y tranquilidad en un día soleado.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves6.jpeg', '/images/ves6.1.jpeg']
+  },
+  {
     id: 'pantalon-lino',
     name: 'Pantalón Lino',
     category: 'Ropa',
@@ -104,6 +158,15 @@ export const products: Product[] = [
     images: [
       '/images/pantalon_lino.jpeg'
     ]
+  },
+  {
+    id: 'blusa-fantasia-bosque',
+    name: 'Blusa Fantasía de Bosque',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Audaz y exótica. Sobre un fondo lima con texturas abstractas que recuerdan la acuarela, esta camisa luce mariposas púrpuras y negras revoloteando entre flores tropicales pintadas a mano. Una pieza rebosante de energía y encanto místico.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves7.jpeg', '/images/ves7.1.jpeg']
   },
   {
     id: 'talego-pintado',
@@ -118,6 +181,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-ocaso-dorado-corta',
+    name: 'Blusa Ocaso Dorado (Manga Corta)',
+    category: 'Ropa',
+    price: 280000,
+    description: 'La pasión del rojo se fusiona con cálidos trazos abstractos en oro puro, sirviendo de lienzo para mariposas celestes y turquesas. Una blusa pintada a mano que es un verdadero tesoro artesanal, capturando la esencia de un atardecer deslumbrante.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves8.jpeg', '/images/ves8.1.jpeg']
+  },
+  {
     id: 'dril-pintado',
     name: 'Prenda Dril Algodón Pintada',
     category: 'Ropa',
@@ -128,6 +200,15 @@ export const products: Product[] = [
       '/images/dril_pintado_1.jpeg',
       '/images/dril_pintado_2.jpeg'
     ]
+  },
+  {
+    id: 'blusa-ocaso-dorado-larga',
+    name: 'Blusa Ocaso Dorado (Manga Larga)',
+    category: 'Ropa',
+    price: 280000,
+    description: 'La elegante versión en manga larga de nuestro diseño carmesí. Con destellos dorados y ensoñadoras mariposas azules pintadas a mano, ofrece una mezcla perfecta entre el arte clásico y la moda contemporánea de lujo.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves9.jpeg']
   },
   {
     id: 'prenda-pintada-personalizada',
@@ -142,6 +223,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-noche-estrellada',
+    name: 'Blusa Noche Estrellada',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Una obra maestra de misteriosos contrastes. Intervenida con audaces bloques de plata metálico, patrones inspirados en geometrías ancestrales y brillantes mariposas rosas pintadas a mano. Un diseño de lujo, vanguardista y sumamente exclusivo.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves10.jpeg', '/images/ves10.1.jpeg']
+  },
+  {
     id: 'gorra-1',
     name: 'Gorras Personalizadas Pintadas a Mano',
     category: 'Accesorios',
@@ -151,6 +241,15 @@ export const products: Product[] = [
     images: [
       '/images/gorras_nueva_1.jpeg'
     ]
+  },
+  {
+    id: 'blusa-solsticio-tropical',
+    name: 'Blusa Solsticio Tropical',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Viste la luz del sol con esta camisa que irradia pura energía. Pintada a mano con refinados detalles dorados y una cascada de follaje esmeralda que acompaña a un grácil colibrí. La encarnación perfecta de la elegancia y el paraíso.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves11.jpeg', '/images/ves11.1.jpeg']
   },
   {
     id: 'sombrero-1',
@@ -164,6 +263,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-pasion-alada',
+    name: 'Blusa Pasión Alada',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Sobre un intenso fondo rojo que evoca fuerza y seguridad, florece una delicada enredadera botánica pintada a mano de la cual emergen mariposas celestes adornadas con luz dorada. Femenina, poderosa y espectacularmente artística.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves12.jpeg', '/images/ves12.1.jpeg']
+  },
+  {
     id: 'sombrero-2',
     name: 'Sombrero Atardecer Bohemio',
     category: 'Accesorios',
@@ -175,6 +283,15 @@ export const products: Product[] = [
     ]
   },
   {
+    id: 'blusa-lienzo-ilusiones',
+    name: 'Blusa Lienzo de Ilusiones',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Una oda visual al amor y los sueños. Esta inmaculada camisa blanca está decorada a mano con enormes corazones en lilas y fucsias, acompañados por espléndidas mariposas en dorado y zafiro. Un diseño artístico lleno de alegría para almas románticas.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves13.jpeg', '/images/ves13.1.jpeg']
+  },
+  {
     id: 'sombrero-3',
     name: 'Sombrero Brisa Estival',
     category: 'Accesorios',
@@ -184,122 +301,5 @@ export const products: Product[] = [
     images: [
       '/images/sombrero_3.jpeg'
     ]
-  },
-  {
-    id: 'blusa-amanecer-radiante',
-    name: 'Blusa Amanecer Radiante',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Una vibrante blusa fucsia que captura la magia de la naturaleza en su máximo esplendor. Pintada meticulosamente a mano, presenta un delicado colibrí en pleno vuelo que se acerca a una flor lila. Esta prenda elegante es el reflejo de la libertad y el color.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves1.jpeg', '/images/ves1.1.jpeg']
-  },
-  {
-    id: 'blusa-latido-bohemio',
-    name: 'Blusa Latido Bohemio',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Celebra la pasión y el romance con esta pieza de diseño exclusivo. Su lienzo blanco cobra vida con un vibrante corazón pintado a mano, la cálida palabra "Amore" y elegantes trazos botánicos en tonos verdes y cobrizos. Arte puro que irradia pura alegría y sofisticación.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves2.jpeg', '/images/ves2.2.jpeg']
-  },
-  {
-    id: 'blusa-susurro-viento',
-    name: 'Blusa Susurro de Viento',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Elegancia pura en una camisa clásica que se transforma en poesía visual. Tres majestuosas mariposas en tonos púrpuras y rosados descienden en perfecta armonía, acompañadas de sutiles arabescos dorados que flotan como un susurro pintado a mano.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves3.jpeg', '/images/ves3.1.jpeg']
-  },
-  {
-    id: 'blusa-misterio-esmeralda',
-    name: 'Blusa Misterio Esmeralda',
-    category: 'Ropa',
-    price: 280000,
-    description: 'El enigma del fondo oscuro se ilumina con la majestuosidad de sublimes plumas de pavo real pintadas a mano en tonos dorados y esmeralda. Una obra de arte sumamente cautivadora y elegante, diseñada para almas enigmáticas que buscan deslumbrar.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves4.jpeg', '/images/ves4.1.jpeg']
-  },
-  {
-    id: 'blusa-dulce-primavera',
-    name: 'Blusa Dulce Primavera',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Una delicada camisa que evoca la serenidad de una tarde fresca. Adornada con hermosas margaritas púrpuras pintadas a mano y el encantador detalle de una abejita en vuelo. Su diseño minimalista y romántico inspira tranquilidad y belleza sutil.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves5.jpeg', '/images/ves5.1.jpeg']
-  },
-  {
-    id: 'blusa-oasis-zafiro',
-    name: 'Blusa Oasis Zafiro (Manga Corta)',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Fresca, vibrante y llena de luz. Esta prenda en tonos azul profundo es el escenario donde danzan un trío de mariposas multicolores pintadas a mano, con destellos dorados que evocan un oasis de arte y tranquilidad en un día soleado.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves6.jpeg', '/images/ves6.1.jpeg']
-  },
-  {
-    id: 'blusa-fantasia-bosque',
-    name: 'Blusa Fantasía de Bosque',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Audaz y exótica. Sobre un fondo lima con texturas abstractas que recuerdan la acuarela, esta camisa luce mariposas púrpuras y negras revoloteando entre flores tropicales pintadas a mano. Una pieza rebosante de energía y encanto místico.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves7.jpeg', '/images/ves7.1.jpeg']
-  },
-  {
-    id: 'blusa-ocaso-dorado-corta',
-    name: 'Blusa Ocaso Dorado (Manga Corta)',
-    category: 'Ropa',
-    price: 280000,
-    description: 'La pasión del rojo se fusiona con cálidos trazos abstractos en oro puro, sirviendo de lienzo para mariposas celestes y turquesas. Una blusa pintada a mano que es un verdadero tesoro artesanal, capturando la esencia de un atardecer deslumbrante.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves8.jpeg', '/images/ves8.1.jpeg']
-  },
-  {
-    id: 'blusa-ocaso-dorado-larga',
-    name: 'Blusa Ocaso Dorado (Manga Larga)',
-    category: 'Ropa',
-    price: 280000,
-    description: 'La elegante versión en manga larga de nuestro diseño carmesí. Con destellos dorados y ensoñadoras mariposas azules pintadas a mano, ofrece una mezcla perfecta entre el arte clásico y la moda contemporánea de lujo.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves9.jpeg']
-  },
-  {
-    id: 'blusa-noche-estrellada',
-    name: 'Blusa Noche Estrellada',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Una obra maestra de misteriosos contrastes. Intervenida con audaces bloques de plata metálico, patrones inspirados en geometrías ancestrales y brillantes mariposas rosas pintadas a mano. Un diseño de lujo, vanguardista y sumamente exclusivo.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves10.jpeg', '/images/ves10.1.jpeg']
-  },
-  {
-    id: 'blusa-solsticio-tropical',
-    name: 'Blusa Solsticio Tropical',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Viste la luz del sol con esta camisa que irradia pura energía. Pintada a mano con refinados detalles dorados y una cascada de follaje esmeralda que acompaña a un grácil colibrí. La encarnación perfecta de la elegancia y el paraíso.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves11.jpeg', '/images/ves11.1.jpeg']
-  },
-  {
-    id: 'blusa-pasion-alada',
-    name: 'Blusa Pasión Alada',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Sobre un intenso fondo rojo que evoca fuerza y seguridad, florece una delicada enredadera botánica pintada a mano de la cual emergen mariposas celestes adornadas con luz dorada. Femenina, poderosa y espectacularmente artística.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves12.jpeg', '/images/ves12.1.jpeg']
-  },
-  {
-    id: 'blusa-lienzo-ilusiones',
-    name: 'Blusa Lienzo de Ilusiones',
-    category: 'Ropa',
-    price: 280000,
-    description: 'Una oda visual al amor y los sueños. Esta inmaculada camisa blanca está decorada a mano con enormes corazones en lilas y fucsias, acompañados por espléndidas mariposas en dorado y zafiro. Un diseño artístico lleno de alegría para almas románticas.',
-    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
-    images: ['/images/ves13.jpeg', '/images/ves13.1.jpeg']
   }
 ];
