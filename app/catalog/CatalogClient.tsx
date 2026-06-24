@@ -3,6 +3,7 @@ import React, { useMemo } from 'react';
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 import { products } from '@/lib/data';
 
 export function CatalogClient() {
@@ -53,9 +54,9 @@ export function CatalogClient() {
               transition={{ delay: Math.min(idx * 0.1, 1.5), duration: 0.6 }} className="group cursor-pointer flex flex-col gap-3"
             >
               <Link href={`/product/${product.id}`} className="block relative aspect-[3/4] overflow-hidden bg-sage">
-                <img src={product.images[0]} alt={`${product.name} - Subliime by Gerlyn`} className="w-full h-full object-cover transition-transform duration-700 opacity-90 group-hover:scale-105 group-hover:opacity-100" />
+                <Image fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" src={product.images[0]} alt={`${product.name} - Subliime by Gerlyn`} className="object-cover transition-transform duration-700 opacity-90 group-hover:scale-105 group-hover:opacity-100" />
                 {product.images[1] && (
-                  <img src={product.images[1]} alt={`${product.name} - vista alterna`} className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                  <Image fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" src={product.images[1]} alt={`${product.name} - vista alterna`} className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 )}
                 <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="bg-white text-charcoal text-[10px] px-3 py-2 uppercase tracking-tighter hover:bg-charcoal hover:text-white transition-colors">Ver detalle +</div>

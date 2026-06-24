@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { ArrowLeft } from 'lucide-react';
 import { products } from '@/lib/data';
 import { useCart } from '@/context/CartContext';
@@ -36,23 +37,23 @@ export function ProductDetailClient({ productId }: { productId: string }) {
           <div className="hidden md:flex flex-col gap-4 w-24 shrink-0">
             {product.images.map((img, idx) => (
               <button key={idx} onClick={() => setActiveImage(idx)}
-                className={`aspect-[3/4] overflow-hidden ${activeImage === idx ? 'ring-1 ring-charcoal' : 'opacity-60 hover:opacity-100 transition-opacity'}`}
+                className={`relative aspect-[3/4] overflow-hidden ${activeImage === idx ? 'ring-1 ring-charcoal' : 'opacity-60 hover:opacity-100 transition-opacity'}`}
               >
-                <img src={img} alt={`${product.name} - imagen ${idx + 1}`} className="w-full h-full object-cover" />
+                <Image src={img} alt={`${product.name} - imagen ${idx + 1}`} fill sizes="96px" className="object-cover" />
               </button>
             ))}
           </div>
 
-          <motion.div key={activeImage} initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-1 aspect-[3/4] bg-stone-200 overflow-hidden">
-            <img src={product.images[activeImage]} alt={`${product.name} - Subliime by Gerlyn`} className="w-full h-full object-cover" />
+          <motion.div key={activeImage} initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-1 aspect-[3/4] bg-stone-200 overflow-hidden relative">
+            <Image src={product.images[activeImage]} alt={`${product.name} - Subliime by Gerlyn`} fill sizes="(max-width: 768px) 100vw, 50vw" priority className="object-cover" />
           </motion.div>
 
           <div className="flex md:hidden gap-4 mt-4 overflow-x-auto pb-2">
             {product.images.map((img, idx) => (
               <button key={idx} onClick={() => setActiveImage(idx)}
-                className={`w-20 aspect-[3/4] shrink-0 overflow-hidden ${activeImage === idx ? 'ring-1 ring-charcoal' : 'opacity-60'}`}
+                className={`relative w-20 aspect-[3/4] shrink-0 overflow-hidden ${activeImage === idx ? 'ring-1 ring-charcoal' : 'opacity-60'}`}
               >
-                <img src={img} alt="" className="w-full h-full object-cover" />
+                <Image src={img} alt="" fill sizes="80px" className="object-cover" />
               </button>
             ))}
           </div>
@@ -120,8 +121,8 @@ export function ProductDetailClient({ productId }: { productId: string }) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {relatedProducts.map(p => (
               <Link key={p.id} href={`/product/${p.id}`} className="group flex flex-col">
-                <div className="aspect-[3/4] bg-stone-200 mb-4 overflow-hidden">
-                  <img src={p.images[0]} alt={`${p.name} - Subliime by Gerlyn`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="relative aspect-[3/4] bg-stone-200 mb-4 overflow-hidden">
+                  <Image src={p.images[0]} alt={`${p.name} - Subliime by Gerlyn`} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
                 </div>
                 <h3 className="font-medium text-xs md:text-sm tracking-wide line-clamp-1">{p.name}</h3>
                 <p className="text-charcoal/60 mt-1 text-xs md:text-sm">${p.price.toLocaleString('es-CO')}</p>

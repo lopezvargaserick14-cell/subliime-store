@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { products } from '@/lib/data';
 
 const heroImages = [
@@ -69,7 +70,7 @@ export function HomeClient() {
           <motion.div key={currentImageIndex} initial={{ opacity: 0, scale: 1.05 }} animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }} transition={{ duration: 2, ease: 'easeInOut' }} className="absolute inset-0"
           >
-            <img src={heroImages[currentImageIndex]} alt="Subliime by Gerlyn - Moda artesanal Bucaramanga" className="w-full h-full object-cover brightness-[0.7]" />
+            <Image src={heroImages[currentImageIndex]} alt="Subliime by Gerlyn - Moda artesanal Bucaramanga" fill priority sizes="100vw" className="object-cover brightness-[0.7]" />
           </motion.div>
         </AnimatePresence>
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-charcoal/20" />
@@ -108,9 +109,9 @@ export function HomeClient() {
                 exit={{ opacity: 0, scale: 0.9 }} transition={{ duration: 0.3 }} className="group cursor-pointer flex flex-col"
               >
                 <Link href={`/product/${product.id}`} className="block relative aspect-[3/4] overflow-hidden mb-6 bg-stone-200">
-                  <img src={product.images[0]} alt={`${product.name} - Subliime by Gerlyn`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <Image fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw" src={product.images[0]} alt={`${product.name} - Subliime by Gerlyn`} className="object-cover transition-transform duration-700 group-hover:scale-105" />
                   {product.images[1] && (
-                    <img src={product.images[1]} alt={`${product.name} - vista alternativa`} className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                    <Image fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw" src={product.images[1]} alt={`${product.name} - vista alternativa`} className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   )}
                 </Link>
                 <h3 className="font-medium text-sm tracking-wide">{product.name}</h3>
@@ -134,7 +135,7 @@ export function HomeClient() {
       {/* About / Editorial */}
       <section id="about" className="min-h-[80vh] flex flex-col md:flex-row w-full bg-stone-100">
         <div className="w-full md:w-1/2 h-[50vh] md:h-auto relative">
-          <img src="/images/me_gusta_pero_quiero_que_202606032053.jpeg" alt="Gerlyn - Creadora de Subliime, diseñadora artesanal de Bucaramanga" className="w-full h-full object-cover" />
+          <Image src="/images/me_gusta_pero_quiero_que_202606032053.jpeg" alt="Gerlyn - Creadora de Subliime, diseñadora artesanal de Bucaramanga" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center p-12 lg:p-24 bg-sage text-charcoal">
           <div className="max-w-lg space-y-6">
@@ -158,7 +159,7 @@ export function HomeClient() {
       {/* Location */}
       <section className="min-h-[80vh] flex flex-col md:flex-row-reverse w-full bg-charcoal text-white">
         <div className="w-full md:w-1/2 h-[50vh] md:h-auto relative">
-          <img src="/images/store_front.jpeg" alt="Tienda Subliime by Gerlyn - Calle 41 #34-16 Bucaramanga" className="w-full h-full object-cover opacity-80" />
+          <Image src="/images/store_front.jpeg" alt="Tienda Subliime by Gerlyn - Calle 41 #34-16 Bucaramanga" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover opacity-80" />
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center p-12 lg:p-24 bg-charcoal">
           <div className="max-w-lg space-y-8 w-full">
