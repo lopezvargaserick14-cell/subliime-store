@@ -301,5 +301,77 @@ export const products: Product[] = [
     images: [
       '/images/sombrero_3.jpeg'
     ]
+  },
+  {
+    id: 'blusa-ensueno-floral',
+    name: 'Blusa Ensueño Floral',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Una encantadora blusa adornada con delicados motivos florales pintados a mano. Cada detalle evoca la frescura de un jardín en primavera, ofreciendo un toque romántico y lleno de magia para cualquier ocasión.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves14.jpeg', '/images/ves14.1.jpeg']
+  },
+  {
+    id: 'blusa-canto-sirena',
+    name: 'Blusa Canto de Sirena',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Inspirada en el misterio del océano, esta blusa presenta tonos profundos y pinceladas fluidas que capturan la esencia del agua. Una obra artesanal que transmite tranquilidad y sofisticación pura.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves15.jpeg', '/images/ves15.1.jpeg']
+  },
+  {
+    id: 'blusa-alba-dorada',
+    name: 'Blusa Alba Dorada',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Recibe la luz del amanecer con esta espectacular prenda. Sus trazos cálidos y toques de luminosidad pintados a mano la convierten en el centro de todas las miradas. Elegancia y vitalidad en una sola pieza.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves16.jpeg', '/images/ves16.1.jpeg']
+  },
+  {
+    id: 'blusa-danza-hojas',
+    name: 'Blusa Danza de Hojas',
+    category: 'Ropa',
+    price: 280000,
+    description: 'La armonía de la naturaleza plasmada en una blusa. Hojas y elementos botánicos flotan sutilmente sobre el tejido, creando una composición orgánica y relajada para espíritus libres.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves17.jpeg', '/images/ves17.1.jpeg']
+  },
+  {
+    id: 'blusa-reflejo-lunar',
+    name: 'Blusa Reflejo Lunar',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Sutil y cautivadora, como la luz de la luna en la noche. Pintada a mano con un contraste elegante que realza la silueta, ofreciendo un estilo moderno y atemporal.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves18.jpeg', '/images/ves18.1.jpeg']
+  },
+  {
+    id: 'blusa-paraiso-oculto',
+    name: 'Blusa Paraíso Oculto',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Una explosión de colores y formas exóticas decoran esta prenda única. Cada pincelada evoca un oasis secreto, aportando vida y alegría a tu guardarropa.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves19.jpeg', '/images/ves19.1.jpeg']
+  },
+  {
+    id: 'blusa-brisa-mistica',
+    name: 'Blusa Brisa Mística',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Déjate envolver por un diseño etéreo. Esta blusa pintada a mano captura la suavidad del viento con trazos ligeros y elegantes, logrando un balance perfecto entre arte y moda.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves20.jpeg', '/images/ves20.1.jpeg']
+  },
+  {
+    id: 'blusa-suspiro-otono',
+    name: 'Blusa Suspiro de Otoño',
+    category: 'Ropa',
+    price: 280000,
+    description: 'Colores cálidos y nostálgicos se entrelazan en esta hermosa pieza. Una interpretación artística de la estación más acogedora del año, creada para destacar tu personalidad.',
+    details: ['Pintada a mano', 'Diseño exclusivo', 'Disponible en todas las tallas'],
+    images: ['/images/ves21.jpeg', '/images/ves21.1.jpeg']
   }
 ];

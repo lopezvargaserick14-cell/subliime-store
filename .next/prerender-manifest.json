@@ -175,6 +175,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/product/blusa-alba-dorada": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-alba-dorada.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/product/blusa-amanecer-radiante": {
       "experimentalBypassFor": [
         {
@@ -223,6 +247,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/product/blusa-brisa-mistica": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-brisa-mistica.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/blusa-canto-sirena": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-canto-sirena.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/blusa-danza-hojas": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-danza-hojas.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/product/blusa-dulce-primavera": {
       "experimentalBypassFor": [
         {
@@ -238,6 +334,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[id]",
       "dataRoute": "/product/blusa-dulce-primavera.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/blusa-ensueno-floral": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-ensueno-floral.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -439,6 +559,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/product/blusa-paraiso-oculto": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-paraiso-oculto.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/product/blusa-pasion-alada": {
       "experimentalBypassFor": [
         {
@@ -463,6 +607,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/product/blusa-reflejo-lunar": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-reflejo-lunar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/product/blusa-solsticio-tropical": {
       "experimentalBypassFor": [
         {
@@ -478,6 +646,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[id]",
       "dataRoute": "/product/blusa-solsticio-tropical.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/blusa-suspiro-otono": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[id]",
+      "dataRoute": "/product/blusa-suspiro-otono.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
